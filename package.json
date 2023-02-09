@@ -21,6 +21,9 @@
   "type": "module",
   "homepage": "https://github.com/Medsoniams/frontend-project-44#readme",
   "dependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "readline-sync": "^1.4.10"
   }
 }
