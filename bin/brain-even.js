@@ -9,7 +9,7 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 let rightAnswers = 0;
 const gameInstructions = () => {
-    const randomNumber = Math.floor(Math.random() * 100);
+    const randomNumber = getRandomNumber();
     const isEven = randomNumber % 2 === 0;
     console.log(`Question: ${randomNumber}`);
 

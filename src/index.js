@@ -6,7 +6,7 @@ export const printWelcome = () => {
   return greeting()
 }
 
-export const getRandomNumber = (max = 100) => {
+export const getRandomNumber = (max = 10) => {
   return Math.floor(Math.random() * max);
 }
 
